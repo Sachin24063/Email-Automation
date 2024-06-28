@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0; /* Updated background color */
+}
+
+.container {
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #385594;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.google a {
+  display: block;
+  height: 55px;
+  width: 100%;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to right, #e72f1f, #ea4335);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  line-height: 55px;
+  transition: background 0.3s ease;
+}
+
+.google a:hover {
+  background: linear-gradient(to left, #d14c40, #da564a);
+}
+
+.fa-google {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+/* Hide the Microsoft sign-in option */
+.microsoft {
+  display: none;
+}
